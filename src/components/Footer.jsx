@@ -153,7 +153,7 @@ const Footer = () => {
             <FaSun size={20} className="text-black" />
           )}
         </button>
-        <h1 className="bg-black text-white mt-8 bottom-0 items-center">
+        <h1 className="bg-black text-white mt-8 bottom-0 justify-center items-center">
             Copyright 2024 ROHBERN HOMES,All Rights Reserved
         </h1>
       </div>
