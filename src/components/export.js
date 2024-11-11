@@ -14,10 +14,11 @@ import { MdNoteAlt } from "react-icons/md";
 import {
   FaHome,
   FaSearch,
-  FaNotesMedical,
+  
   FaCameraRetro,
 } from "react-icons/fa";
 import { GoLaw } from "react-icons/go";
+import { GiMachineGun } from "react-icons/gi";
 
 export const property = [
   {
@@ -102,8 +103,8 @@ export const service = [
   },
   {
     icon: FaHome,
-    title: "Home loans",
-    desc: "We offer you free consultancy to get a loan",
+    title: "Interior decoration",
+    desc: "We offer the best in all aspect of home decorations",
   },
   {
     icon: GoLaw,
@@ -116,9 +117,9 @@ export const service = [
     desc: "We make sure you get what you were promised",
   },
   {
-    icon: FaNotesMedical,
-    title: "Evaluation",
-    desc: "We offer you free evaluation to get a mortgage loan",
+    icon: GiMachineGun,
+    title: "Land Survey",
+    desc: "We handle all specification in land survey, and rightfully give the best",
   },
   {
     icon: FaCameraRetro,
