@@ -49,19 +49,18 @@ const Footer = () => {
             >
               <FaInstagram className="size-5" />
             </div>
-            <div
-              className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
-                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+            <a
+              href="https://twitter.com/BankybennyD"
+              target="blank"
+              className="ml-1 h-[inherit]"
             >
-              <a
-                href="https://twitter.com/BankybennyD"
-                target="blank"
-                className="ml-1"
+              <div
+                className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
+                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
               >
-                 <FaTwitter className="size-5" />
-              </a>
-
-            </div>
+                <FaTwitter className="size-5" />
+              </div>
+            </a>
             <div
               className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
                  cursor-pointer transform hover:scale-110 transition-transform duration-300"
@@ -70,7 +69,7 @@ const Footer = () => {
             </div>
           </div>
           <h1 className="text-white mt-8 fixed bottom-0 items-center">
-            Copyright 2024 Real Estate,All Rights Reserved
+            Copyright 2024 ROHBERN HOMES,All Rights Reserved
           </h1>
         </div>
 
@@ -94,7 +93,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center gap-3">
             <FaFax className="text-white size-5" />
-            <p className="text-slate-200">+2348033935562</p>
+            <p className="text-slate-200">+2349068767395</p>
           </div>
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
