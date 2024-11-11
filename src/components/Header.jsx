@@ -53,7 +53,7 @@ const Header = () => {
         <img
           src={logo2}
           alt="company logo"
-          className="lg:w-[150px] w-[120px] dark:invert"
+          className="lg:w-[150px] w-[200px] dark:invert"
         />
       </div>
       {/* Desktop menu starts here */}
