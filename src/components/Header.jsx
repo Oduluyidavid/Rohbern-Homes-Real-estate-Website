@@ -56,6 +56,7 @@ const Header = () => {
           className="lg:w-[150px] w-[120px] dark:invert"
         />
       </div>
+      {/* Desktop menu starts here */}
       <ul className="lg:justify-center items-center gap-8 hidden ">
         {navItems.map(({ link, path }) => (
           <Link
@@ -98,6 +99,7 @@ const Header = () => {
               spy={true}
               offset={-100}
               smooth={true}
+              onSetActive={(to) => setIsMenuOpen(false)}
             >
               {link}
             </Link>

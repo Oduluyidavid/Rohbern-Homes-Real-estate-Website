@@ -18,7 +18,7 @@ const About = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
 
   return (
-    <section id='About' className={`${darkMode ? "dark bg-black" : "light bg-transparent"}} w-full m-auto lg:px-40 px-10 py-20 grid lg:grid-cols-2 
+    <section id='about' className={`${darkMode ? "dark bg-black" : "light bg-transparent"}} w-full m-auto lg:px-40 px-10 py-20 grid lg:grid-cols-2 
     grid-cols-1 justify-center items-center gap-10`}>
 
       <div>

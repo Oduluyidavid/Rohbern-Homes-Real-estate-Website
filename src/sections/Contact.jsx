@@ -18,7 +18,7 @@ const Contact = () => {
 
   const { darkMode, toggleDarkMode } = useDarkMode();
 
-  
+
 
   return (
     <div
@@ -29,6 +29,7 @@ const Contact = () => {
           darkMode ? "dark bg-gray-800" : "light bg-red-100"
         } lg:w-[95%] w-ful h-fit m-auto 
       rounded-xl grid lg:grid-cols-2  justify-center items-center lg:px-36 px-6 py-20 gap-10`}
+      id="contact"
       >
         <div
           data-aos="zoom-in"
