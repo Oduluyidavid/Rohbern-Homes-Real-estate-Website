@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaTwitter,
   FaYoutube,
+  FaWhatsappSquare,
   FaBuilding,
   FaMobile,
   FaFax,
@@ -67,6 +68,19 @@ const Footer = () => {
             >
               <FaYoutube className="size-5" />
             </div>
+            <a
+              href="https://wa.me/message/AOOQ35VVTML4D1"
+              target="blank"
+              className="ml-1 h-[inherit]"
+            >
+            <div
+
+              className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
+                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+            >
+              <FaWhatsappSquare className="size-5" />
+            </div>
+            </a>
           </div>
         </div>
 
