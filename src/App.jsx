@@ -20,8 +20,7 @@ const App = () => {
         <About />
         <YoutubeVideo
           links={[
-            "https://www.youtube.com/embed/VZxTVBaUzxQ?si=ZB6xSV6gw_DiYE5k",
-            "https://www.youtube.com/embed/TVP3gJ6afBU?si=K21UkSZ-27A7OQsg",
+            "https://www.youtube.com/embed/57RO8jfHnWU?si=VqnLwS8fVHNoytce",
           ]}
         />
         <PopularAreas />

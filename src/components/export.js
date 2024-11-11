@@ -11,14 +11,10 @@ import client4 from "../assets/images/client4.png";
 import client5 from "../assets/images/client5.png";
 import client6 from "../assets/images/client6.png";
 import { MdNoteAlt } from "react-icons/md";
-import {
-  FaHome,
-  FaSearch,
-  
-  FaCameraRetro,
-} from "react-icons/fa";
+import { FaHome, FaSearch } from "react-icons/fa";
 import { GoLaw } from "react-icons/go";
 import { GiMachineGun } from "react-icons/gi";
+import { FaCloudSunRain } from "react-icons/fa6";
 
 export const property = [
   {
@@ -118,13 +114,13 @@ export const service = [
   },
   {
     icon: GiMachineGun,
-    title: "Land Survey",
+    title: "Architecture && Land Survey",
     desc: "We handle all specification in land survey, and rightfully give the best",
   },
   {
-    icon: FaCameraRetro,
-    title: "Photoshoot",
-    desc: "We prepare your home visual presentation",
+    icon: FaCloudSunRain,
+    title: "Solar installation",
+    desc: "Let the sun's energy light up your life",
   },
 ];
 
