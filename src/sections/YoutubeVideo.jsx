@@ -16,7 +16,7 @@ const YoutubeVideo = ({ links }) => {
         {links.map((link, index) => (
           <iframe
             key={index}
-            width="560"
+            // width="560"
             height="315"
             src={link}
             title="YouTube video player"
@@ -24,6 +24,7 @@ const YoutubeVideo = ({ links }) => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
+            className="min-w[320px]"
           ></iframe>
         ))}
       </section>

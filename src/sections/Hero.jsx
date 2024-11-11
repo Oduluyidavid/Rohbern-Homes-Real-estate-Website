@@ -21,7 +21,7 @@ const Hero = () => {
           style={{ background: `url(${heroimg})` }} >
           <h1 data-aos="zoom-in" className="text-6xl text-white font-semibold lg:pr[500px] pr-0 lg:leading-[70px] leading-[60px]">Find your dream home with us</h1>
           <p data-aos-="zoom-in" className="text-white text-xl lg:pr-[500px] pr-0" >
-            An investment in real estate is a surefire way to build wealth over time. The fasinatating fact is that don't wait to buy real estate, Buy real estate and wait.
+            An investment in real estate is a surefire way to build wealth over time, the fact is that don't wait to buy real estate, Buy real estate and wait.
           </p>
         </section>
       </div>
