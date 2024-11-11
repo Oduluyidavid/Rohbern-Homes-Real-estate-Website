@@ -87,7 +87,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center items-start gap-5">
           <h1 className="text-white text-2xl font-semibold">Contact Us</h1>
           <div className="flex justify-center items-center gap-3">
-            <FaBuilding className="text-white size-6 " />
+            <FaBuilding className="text-white size-10 " />
             <p className="text-slate-200">
               By investing in real estate, you may benefit from this
               appreciation, allowing you to build wealth as the property value
