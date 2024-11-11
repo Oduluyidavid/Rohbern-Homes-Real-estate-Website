@@ -94,7 +94,9 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
-            <p className="text-slate-200">oduluyidavidadegoke@gmail.com</p>
+            <a href="mailto:oduluyidavidadegoke@gmail.com">
+              <p className="text-slate-200">oduluyidavidadegoke@gmail.com</p>
+            </a>
           </div>
         </div>
         <div className="flex flex-col justify-center items-start gap-5">
@@ -110,7 +112,7 @@ const Footer = () => {
             />
             <div>
               <h1 className="text-lg text-white">Villa with amazing view</h1>
-              <p className="text-slate-400">$ 287.98</p>
+              <p className="text-slate-400"></p>
             </div>
           </div>
           <div className="flex justify-center items-center gap-4">
@@ -122,7 +124,7 @@ const Footer = () => {
             />
             <div>
               <h1 className="text-lg text-white">Smart view from beach</h1>
-              <p className="text-slate-400">$ 587.98</p>
+              <p className="text-slate-400"></p>
             </div>
           </div>
         </div>
@@ -154,7 +156,7 @@ const Footer = () => {
           )}
         </button>
         <h1 className="bg-black text-white mt-8 bottom-0 justify-center items-center">
-            Copyright 2024 ROHBERN HOMES,All Rights Reserved
+          Copyright 2024 ROHBERN HOMES,All Rights Reserved
         </h1>
       </div>
     </>
