@@ -3,7 +3,6 @@ import { useDarkMode } from "./DarkModeContext";
 import {
   FaFacebookF,
   FaInstagram,
-  FaTwitter,
   FaYoutube,
   FaWhatsappSquare,
   FaBuilding,
@@ -18,6 +17,7 @@ import { IoMdMail } from "react-icons/io";
 import prop7 from "../assets/images/prop7.jpg";
 import prop8 from "../assets/images/prop8.jpg";
 import { IoLocation } from "react-icons/io5";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
@@ -60,7 +60,7 @@ const Footer = () => {
                 className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
                  cursor-pointer transform hover:scale-110 transition-transform duration-300"
               >
-                <FaTwitter className="size-5" />
+                <FaSquareXTwitter className="size-5" />
               </div>
             </a>
 
@@ -103,7 +103,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center gap-3">
             <FaMobile className="text-white size-5" />
-            <p className="text-slate-200">2348065074094</p>
+            <p className="text-slate-200">+2348065074094</p>
           </div>
           <div className="flex justify-center items-center gap-3">
             <IoLocation className="text-white size-5" />
@@ -111,7 +111,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center gap-3">
             <FaFax className="text-white size-5" />
-            <p className="text-slate-200">2348065074094</p>
+            <p className="text-slate-200">+2348065074094</p>
           </div>
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
@@ -158,7 +158,7 @@ const Footer = () => {
         className="bg-red-600 p-4 rounded-full hover:bg-black 
        cursor-pointer fixed lg:buttom-12 buttom-6 right-6"
       >
-        <Link to="hero" spy={true} offset={-100} smooth={true}>
+        <Link to="Hero" spy={true} offset={-100} smooth={true}>
           <FaArrowUp className="size-6 text-white" />
         </Link>
       </div>
