@@ -17,6 +17,7 @@ import { Link } from "react-scroll";
 import { IoMdMail } from "react-icons/io";
 import prop7 from "../assets/images/prop7.jpg";
 import prop8 from "../assets/images/prop8.jpg";
+import { IoLocation } from "react-icons/io5";
 
 const Footer = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
@@ -51,7 +52,7 @@ const Footer = () => {
               <FaInstagram className="size-5" />
             </div>
             <a
-              href="https://twitter.com/BankybennyD"
+              href="https://twitter.com/RohbernHomes"
               target="blank"
               className="ml-1 h-[inherit]"
             >
@@ -62,24 +63,30 @@ const Footer = () => {
                 <FaTwitter className="size-5" />
               </div>
             </a>
-            <div
-              className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
-                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
-            >
-              <FaYoutube className="size-5" />
-            </div>
+
             <a
-              href="https://wa.me/message/AOOQ35VVTML4D1"
+              href="https://youtube.com/@rohbernedgehomes?si=N_muQjgJRWTiMAtR"
               target="blank"
               className="ml-1 h-[inherit]"
             >
-            <div
-
-              className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
+              <div
+                className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
                  cursor-pointer transform hover:scale-110 transition-transform duration-300"
+              >
+                <FaYoutube className="size-5" />
+              </div>
+            </a>
+            <a
+              href="https://Wa.me/+2348065074094"
+              target="blank"
+              className="ml-1 h-[inherit]"
             >
-              <FaWhatsappSquare className="size-5" />
-            </div>
+              <div
+                className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
+                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+              >
+                <FaWhatsappSquare className="size-5" />
+              </div>
             </a>
           </div>
         </div>
@@ -96,20 +103,20 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center gap-3">
             <FaMobile className="text-white size-5" />
-            <p className="text-slate-200">+2349068767395</p>
+            <p className="text-slate-200">2348065074094</p>
           </div>
           <div className="flex justify-center items-center gap-3">
-            <FaArrowUp className="text-white size-5" />
-            <p className="text-slate-200">+2349068767395</p>
+            <IoLocation className="text-white size-5" />
+            <p className="text-slate-200">Ibadan Nigeria</p>
           </div>
           <div className="flex justify-center items-center gap-3">
             <FaFax className="text-white size-5" />
-            <p className="text-slate-200">+2349068767395</p>
+            <p className="text-slate-200">2348065074094</p>
           </div>
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
-            <a href="mailto:oduluyidavidadegoke@gmail.com">
-              <p className="text-slate-200">oduluyidavidadegoke@gmail.com</p>
+            <a href="mailto:rohbernedgehomes@gmail.com">
+              <p className="text-slate-200">rohbernedgehomes@gmail.com</p>
             </a>
           </div>
         </div>
@@ -170,7 +177,7 @@ const Footer = () => {
           )}
         </button>
         <h1 className="bg-black text-white mt-8 bottom-0 justify-center items-center">
-             Copyright 2024 ROHBERN HOMES,All Rights Reserved.
+          Copyright 2024 ROHBERN HOMES,All Rights Reserved.
         </h1>
       </div>
     </>

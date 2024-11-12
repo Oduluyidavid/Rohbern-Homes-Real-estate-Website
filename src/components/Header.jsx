@@ -108,7 +108,7 @@ const Header = () => {
       </div>
       <div className="flex justify-center items-center lg:gap-8 gap-2">
         <a
-          href="tel:+2349068767395"
+          href="tel:2348065074094"
           className="flex justify-center items-center lg:gap-3 gap-1"
         >
           <FaPhoneAlt className="size-5 text-red-600" />
