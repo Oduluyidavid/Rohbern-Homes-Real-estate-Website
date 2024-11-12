@@ -21,6 +21,7 @@ const App = () => {
         <YoutubeVideo
           links={[
             "https://www.youtube.com/embed/57RO8jfHnWU?si=VqnLwS8fVHNoytce",
+            "https://www.youtube.com/embed/9HajrxlN_dA?si=6-ib6zbkxFwJajfX"
           ]}
         />
         <PopularAreas />

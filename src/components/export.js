@@ -114,7 +114,7 @@ export const service = [
   },
   {
     icon: GiMachineGun,
-    title: "Architecture && Land Survey",
+    title: "Architecture and Land Survey",
     desc: "We handle all specification in land survey, and rightfully give the best",
   },
   {
