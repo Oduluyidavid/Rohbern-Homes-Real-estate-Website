@@ -3,6 +3,7 @@ import { useDarkMode } from "../components/DarkModeContext";
 import house1 from "../assets/images/house1.jpg";
 import house2 from "../assets/images/house2.jpg";
 import house3 from "../assets/images/house3.jpg";
+import house4 from "../assets/images/house4.jpeg";
 
 // import { FaBath, FaShareAlt, FaBed, FaUserCircle, FaPlus, FaMapMarkerAlt, FaVideo, FaCamera, FaHeart } from 'react-icons/fa'
 // import { MdSpaceDashboard } from 'react-icons/md'
@@ -59,6 +60,11 @@ const properties = () => {
           <img
             src={house3}
             alt="House 3"
+            className="object-cover lg:w-1/3 w-[100%] h-[300px] rounded-lg"
+          />
+          <img
+            src={house4}
+            alt="House 4"
             className="object-cover lg:w-1/3 w-[100%] h-[300px] rounded-lg"
           />
         </div>

@@ -65,22 +65,25 @@ const Contact = () => {
             </h1>
             <input
               type="text"
+              name="fullName"
               placeholder="Enter your full name here"
               className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl p-5 space-x-3"
             />
             <input
               type="email"
+              name="email"
               placeholder="Enter your valid email"
               className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl p-5"
             />
             <input
               type="number"
               placeholder="Enter your vaild mobile number"
+              name="number"
               className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl p-5"
             />
             <textarea
-              name=""
-              id=""
+              name="message"
+              id="message"
               cols="30"
               rows="5"
               placeholder="Enter your message here...
