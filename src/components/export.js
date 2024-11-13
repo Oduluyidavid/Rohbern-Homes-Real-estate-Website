@@ -127,7 +127,7 @@ export const service = [
 export const client = [
   {
     image: client9,
-    name: "Lanre olarenwaju",
+    name: "Lanre Omotosho",
     text: "Excellent team!",
     feedback:
       "The WP Estate team did an outstanding job helping me get my first apartment. The high level of service and dedication",
