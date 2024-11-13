@@ -130,21 +130,21 @@ export const client = [
     name: "Lanre olarenwaju",
     text: "Excellent team!",
     feedback:
-      "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
+      "The WP Estate team did an outstanding job helping me get my first apartment. The high level of service and dedication",
   },
   {
     image: client10,
     name: "Tobiloba",
     text: "Very good work",
     feedback:
-      "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
+      "The WP Estate team did an outstanding job helping me get my first apartment. The high level of service and dedication",
   },
   {
     image: client12,
     name: "David Adegoke",
     text: "Very well",
     feedback:
-      "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
+      "The WP Estate team did an outstanding job helping me get my first apartment. The high level of service and dedication",
   },
   // {
     // image: client4,
