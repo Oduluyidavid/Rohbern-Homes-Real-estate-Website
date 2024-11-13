@@ -50,12 +50,18 @@ const Footer = () => {
                 <FaTiktok className="size-5" />
               </div>
             </a>
-            <div
-              className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
-                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+            <a
+              href="https://www.instagram.com/rohbernhomes?igsh=MTZwdzIyd2JvY3l0bw=="
+              target="blank"
+              className="ml-1 h-[inherit]"
             >
-              <FaInstagram className="size-5" />
-            </div>
+              <div
+                className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
+                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+              >
+                <FaInstagram className="size-5" />
+              </div>
+            </a>
             <a
               href="https://twitter.com/RohbernHomes"
               target="blank"
