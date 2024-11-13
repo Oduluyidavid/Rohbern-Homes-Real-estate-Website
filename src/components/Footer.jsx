@@ -1,7 +1,6 @@
 import React from "react";
 import { useDarkMode } from "./DarkModeContext";
 import {
-  FaFacebookF,
   FaInstagram,
   FaYoutube,
   FaWhatsappSquare,
@@ -17,7 +16,7 @@ import { IoMdMail } from "react-icons/io";
 import prop7 from "../assets/images/prop7.jpg";
 import prop8 from "../assets/images/prop8.jpg";
 import { IoLocation } from "react-icons/io5";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter, FaTiktok } from "react-icons/fa6";
 
 const Footer = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
@@ -39,12 +38,18 @@ const Footer = () => {
             id="social-icons"
             className="flex justify-start items-center gap-4 mt-4"
           >
-            <div
-              className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
-                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+            <a
+              href="https://www.tiktok.com/@rohbernhomes?_t=8rM0TonnMHv&_r=1"
+              target="blank"
+              className="ml-1 h-[inherit]"
             >
-              <FaFacebookF className="size-5" />
-            </div>
+              <div
+                className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
+                 cursor-pointer transform hover:scale-110 transition-transform duration-300"
+              >
+                <FaTiktok className="size-5" />
+              </div>
+            </a>
             <div
               className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white 
                  cursor-pointer transform hover:scale-110 transition-transform duration-300"
@@ -94,7 +99,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center items-start gap-5">
           <h1 className="text-white text-2xl font-semibold">Contact Us</h1>
           <div className="flex justify-center items-center gap-3">
-            <FaBuilding className="text-white size-12 " />
+            <FaBuilding className="text-white size-10 " />
             <p className="text-slate-200">
               By investing in real estate, you may benefit from this
               appreciation, allowing you to build wealth as the property value

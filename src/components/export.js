@@ -4,12 +4,12 @@ import prop3 from "../assets/images/prop3.webp";
 import prop4 from "../assets/images/prop4.webp";
 import prop5 from "../assets/images/prop5.webp";
 import prop6 from "../assets/images/prop6.webp";
-import client1 from "../assets/images/client1.png";
-import client2 from "../assets/images/client2.png";
-import client3 from "../assets/images/client3.png";
-import client4 from "../assets/images/client4.png";
-import client5 from "../assets/images/client5.png";
-import client6 from "../assets/images/client6.png";
+import client9 from "../assets/images/client9.jpg";
+import client10 from "../assets/images/client10.jpg";
+import client12 from "../assets/images/client12.jpg";
+// import client4 from "../assets/images/client4.png";
+// import client5 from "../assets/images/client5.png";
+// import client6 from "../assets/images/client6.png";
 import { MdNoteAlt } from "react-icons/md";
 import { FaHome, FaSearch } from "react-icons/fa";
 import { GoLaw } from "react-icons/go";
@@ -126,45 +126,45 @@ export const service = [
 
 export const client = [
   {
-    image: client1,
-    name: "Dana Gilmore",
+    image: client9,
+    name: "Lanre olarenwaju",
     text: "Excellent team!",
     feedback:
       "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
   },
   {
-    image: client2,
-    name: "Ana Anderson",
+    image: client10,
+    name: "Tobiloba",
     text: "Very good work",
     feedback:
       "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
   },
   {
-    image: client3,
-    name: "Albert adame",
+    image: client12,
+    name: "David Adegoke",
     text: "Very well",
     feedback:
       "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
   },
-  {
-    image: client4,
-    name: "Dana Gilmore",
-    text: "Excellent team!",
-    feedback:
-      "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
-  },
-  {
-    image: client5,
-    name: "Alex gilmore",
-    text: "Excellent team!",
-    feedback:
-      "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
-  },
-  {
-    image: client6,
-    name: "Sivay Ashbi",
-    text: "Excellent team!",
-    feedback:
-      "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
-  },
+  // {
+    // image: client4,
+    // name: "Dana Gilmore",
+    // text: "Excellent team!",
+    // feedback:
+      // "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
+  // },
+  // {
+    // image: client5,
+    // name: "Alex gilmore",
+    // text: "Excellent team!",
+    // feedback:
+      // "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
+  // },
+  // {
+    // image: client6,
+    // name: "Sivay Ashbi",
+    // text: "Excellent team!",
+    // feedback:
+      // "The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication",
+  // },
 ];
