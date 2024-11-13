@@ -30,8 +30,7 @@ const About = () => {
         </h1>
         <h1 data-aos='zoom-in' data-aos-delay='200' className='text-black text-[40px] font-semibold leading-10 dark:text-white'>
           We represents sellers or buyers of real estate or real property.</h1>
-          <p data-aos="zoom-in" data-aos-delay="400" className='text-xl text-gray-600 dark:text-white text-justify'>
-            Real estate is an imperishable asset, ever increasing in value. It is the most solid security that human ingenuity has devised. 
+          <p data-aos="zoom-in" data-aos-delay="400" className='text-xl text-gray-600 dark:text-white text-justify'>Real estate is an imperishable asset, ever increasing in value. It is the most solid security that human ingenuity has devised. 
             It is the basis of all security and about the only indestructible security.
           </p>
           <button className=" bg-red-600 dark:bg-red-700 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4  text-white font-semibold
