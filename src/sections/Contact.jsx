@@ -104,7 +104,7 @@ const Contact = () => {
               className="btn px-14 py-4 shadow-sm bg-red-600 w-full text-md text-white font-semibold 
                rounded-xl hover:bg-black dark:hover:bg-red-700 cursor-pointer p-5"
             >
-              {isLoading ? "loading..." : "Send Mail"}
+              {isLoading ? "loading..." : "Submit"}
             </button>
           </form>
         </div>
