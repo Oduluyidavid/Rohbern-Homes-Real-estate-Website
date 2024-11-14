@@ -4,9 +4,9 @@ import prop3 from "../assets/images/prop3.webp";
 import prop4 from "../assets/images/prop4.webp";
 import prop5 from "../assets/images/prop5.webp";
 import prop6 from "../assets/images/prop6.webp";
-import client9 from "../assets/images/client9.jpg";
-import client10 from "../assets/images/client10.jpg";
-import client12 from "../assets/images/client12.jpg";
+import client16 from "../assets/images/client16.jpg";
+import client17 from "../assets/images/client17.jpg";
+import client18 from "../assets/images/client18.jpg";
 // import client4 from "../assets/images/client4.png";
 // import client5 from "../assets/images/client5.png";
 // import client6 from "../assets/images/client6.png";
@@ -126,22 +126,22 @@ export const service = [
 
 export const client = [
   {
-    image: client9,
-    name: "Lanre Omotosho",
+    image: client16,
+    name: "Samuel Oyebode",
     text: "Excellent team!",
     feedback:
       "The WP Estate team did a great pursuit helping me get my primitive house. The high level of grace and commitment",
   },
   {
-    image: client10,
-    name: "Tobiloba",
+    image: client17,
+    name: "Tobi Daverson",
     text: "Very good work",
     feedback:
       "The WP Estate team did a remarkable operation helping me get my key home. The high level of privilege and loyalty",
   },
   {
-    image: client12,
-    name: "David Adegoke",
+    image: client18,
+    name: "Gabriel Ugbe",
     text: "Very well",
     feedback:
       "The WP Estate team did a prominent task helping me get my initial apartment. The high level of benefit and allegiance",
