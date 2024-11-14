@@ -69,10 +69,11 @@ const Contact = () => {
             </h1>
             <input
               type="text"
-              name="fullName"
+              name="from_name"
               placeholder="Enter your full name here"
               className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl p-5 space-x-3"
             />
+            <input type="text" name="to_name" value={"Rohbern Homes"} hidden />
             <input
               type="email"
               name="email"
@@ -87,7 +88,6 @@ const Contact = () => {
             />
             <textarea
               name="message"
-              id="message"
               cols="30"
               rows="5"
               placeholder="Enter your message here...
