@@ -59,7 +59,11 @@ const Contact = () => {
           className="bg-white dark:bg-black p-10 flex flex-col 
          justify-center items-start gap-4 rounded-xl w-full"
         >
-          <form className="contactForm flex flex-col gap-3" ref={form} onSubmit={sendEmail}>
+          <form
+            className="contactForm flex flex-col gap-3"
+            ref={form}
+            onSubmit={sendEmail}
+          >
             <h1 className="text-2xl text-black font-semibold dark:text-white space-x-3">
               Send us a message today
             </h1>
