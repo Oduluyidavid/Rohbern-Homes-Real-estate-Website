@@ -115,7 +115,7 @@ const PopularAreas = () => {
             data-aos-delay="200"
             className="flex justify-center lg:items-center gap-8 w-full"
           >
-            <h1 className="text-black text-7xl font-semibold dark:text-black">
+            <h1 className="text-black text-7xl font-semibold dark:text-white">
               5k
             </h1>
             <h1 className="text-black">
@@ -127,7 +127,7 @@ const PopularAreas = () => {
             data-aos-delay="200"
             className="flex justify-center lg:items-center gap-8 w-full"
           >
-            <h1 className="text-black text-7xl font-semibold dark:text-black">
+            <h1 className="text-black text-7xl font-semibold dark:text-white">
               5k
             </h1>
             <h1 className="text-black">
@@ -139,7 +139,7 @@ const PopularAreas = () => {
             data-aos-delay="200"
             className="flex justify-center lg:items-center gap-8 w-full"
           >
-            <h1 className="text-black text-7xl font-semibold dark:text-black">
+            <h1 className="text-black text-7xl font-semibold dark:text-white">
               5k
             </h1>
             <h1
