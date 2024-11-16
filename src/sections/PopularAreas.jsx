@@ -2,7 +2,14 @@ import React, { useEffect } from 'react'
 import { useDarkMode } from '../components/DarkModeContext'
 import area1 from '../assets/images/area1.jpg' 
 import area2 from '../assets/images/area2.jpg' 
-import area3 from '../assets/images/area3.jpg' 
+import area3 from '../assets/images/area3.jpg'
+import home1 from '../assets/images/home1.jpg' 
+import home2 from '../assets/images/home2.jpg' 
+import home3 from '../assets/images/home3.jpg' 
+import home4 from '../assets/images/home4.jpg' 
+import home5 from '../assets/images/home5.jpg' 
+import home6 from '../assets/images/home6.jpg' 
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -42,6 +49,25 @@ const PopularAreas = () => {
             <div data-aos="zoom-in" data-aos-delay="400" style={{backgroundImage: `url(${area3})`}} 
             className='h-[400px] bg-cover bg-center rounded-xl'> 
             </div>
+            <div data-aos="zoom-in" data-aos-delay="400" style={{backgroundImage: `url(${home1})`}} 
+            className='h-[400px] bg-cover bg-center rounded-xl'> 
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="400" style={{backgroundImage: `url(${home2})`}} 
+            className='h-[400px] bg-cover bg-center rounded-xl'> 
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="400" style={{backgroundImage: `url(${home3})`}} 
+            className='h-[400px] bg-cover bg-center rounded-xl'> 
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="400" style={{backgroundImage: `url(${home4})`}} 
+            className='h-[400px] bg-cover bg-center rounded-xl'> 
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="400" style={{backgroundImage: `url(${home5})`}} 
+            className='h-[400px] bg-cover bg-center rounded-xl'> 
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="400" style={{backgroundImage: `url(${home6})`}} 
+            className='h-[400px] bg-cover bg-center rounded-xl'> 
+            </div>
+
 
           </div>
         </div>
