@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDarkMode } from "../components/DarkModeContext";
-import heroimg from "../assets/images/hero1.webp";
+import good1 from "../assets/images/good1.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -18,9 +18,9 @@ const Hero = () => {
     <>
       <div className={`${darkMode ? "dark bg-black" : "light bg-white"}`}>
         <section id="home"className="w-[95] h-[600px] m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20"
-          style={{ background: `url(${heroimg})` }} >
-          <h1 data-aos="zoom-in" className="text-6xl text-white font-semibold lg:pr[500px] pr-0 lg:leading-[70px] leading-[60px]">Find your dream home with us</h1>
-          <p data-aos-="zoom-in" className="text-white text-xl lg:pr-[500px] pr-0" >
+          style={{ background: `url(${good1})` }} >
+          <h1 data-aos="zoom-in" className="text-6xl text-black font-semibold lg:pr[500px] pr-0 lg:leading-[70px] leading-[60px]">Find your dream home with us</h1>
+          <p data-aos-="zoom-in" className="text-black text-xl lg:pr-[500px] pr-0" >
             An investment in real estate is a surefire way to build wealth over time, the fact is that don't wait to buy real estate, Buy real estate and wait.
           </p>
         </section>
