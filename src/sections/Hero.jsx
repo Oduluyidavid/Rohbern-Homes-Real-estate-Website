@@ -19,7 +19,7 @@ const Hero = () => {
       <div className={`${darkMode ? "dark bg-black" : "light bg-white"}`}>
         <section id="home"className="w-[95] h-[600px] m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20"
           style={{ background: `url(${good1})` }} >
-          <h1 data-aos="zoom-in" className="text-6xl text-cyan-50 font-semibold lg:pr[500px] pr-0 lg:leading-[70px] leading-[60px]">Find your dream home with us</h1>
+          <h1 data-aos="zoom-in" className="text-6xl text-emerald-50 font-semibold lg:pr[500px] pr-0 lg:leading-[70px] leading-[60px]">Find your dream home with us</h1>
           <p data-aos-="zoom-in" className="text-black text-xl lg:pr-[500px] pr-0" >
             An investment in real estate is a surefire way to build wealth over time, the fact is that don't wait to buy real estate, Buy real estate and wait.
           </p>
