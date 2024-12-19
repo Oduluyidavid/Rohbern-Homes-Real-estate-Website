@@ -103,7 +103,9 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col justify-center items-start gap-7">
-          <h1 className="text-white text-2xl font-semibold gap-1">Contact Us</h1>
+          <h1 className="text-white text-2xl font-semibold gap-1">
+            Contact Us
+          </h1>
           <div className="flex justify-center items-center gap-3">
             <FaBuilding className="text-white size-10 " />
             <p className="text-slate-200">
@@ -124,6 +126,7 @@ const Footer = () => {
             <FaFax className="text-white size-5" />
             <p className="text-slate-200 cursor-pointer">+2348065074094</p>
           </div>
+
           <div className="flex justify-center items-center gap-3">
             <IoMdMail className="text-white size-5" />
             <a href="mailto:rohbernedgehomes@gmail.com">
