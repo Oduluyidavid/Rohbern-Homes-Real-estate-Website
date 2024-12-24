@@ -4,9 +4,6 @@ import house1 from "../assets/images/house1.jpg";
 import house2 from "../assets/images/house2.jpg";
 import house3 from "../assets/images/house3.jpg";
 import house4 from "../assets/images/house4.jpeg";
-
-// import { FaBath, FaShareAlt, FaBed, FaUserCircle, FaPlus, FaMapMarkerAlt, FaVideo, FaCamera, FaHeart } from 'react-icons/fa'
-// import { MdSpaceDashboard } from 'react-icons/md'
 import Aos from "aos";
 import "aos/dist/aos.css";
 

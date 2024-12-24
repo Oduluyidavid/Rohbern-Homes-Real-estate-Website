@@ -70,6 +70,7 @@ const Contact = () => {
             <input
               type="text"
               name="from_name"
+              required:true
               placeholder="Enter your full name here"
               className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl p-5 space-x-3"
             />
@@ -77,6 +78,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
+              required:true
               placeholder="Enter your valid email"
               className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl p-5"
             />
@@ -84,10 +86,12 @@ const Contact = () => {
               type="number"
               placeholder="Enter your vaild mobile number"
               name="number"
+              required:true
               className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl p-5"
             />
             <textarea
               name="message"
+              required:true
               cols="30"
               rows="5"
               placeholder="Enter your message here...
