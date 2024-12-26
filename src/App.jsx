@@ -10,11 +10,27 @@ import Clients from "./sections/Clients";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 import YoutubeVideo from "./sections/YoutubeVideo";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const App = () => {
   return (
     <>
       <DarkModeProvider>
+        {/* Toastify Container with Dynamic theme */}
+        <ToastContainer
+          position="top-center"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme={darkMode ? "dark" : "light"} // Toggle theme based on darkMode value
+        />
         <Header />
         <Hero />
         <About />
