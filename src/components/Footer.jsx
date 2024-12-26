@@ -190,9 +190,10 @@ const Footer = () => {
             <FaSun size={20} className="text-black" />
           )}
         </button>
-        <h1 className="bg-black text-white mt-8 bottom-0 justify-center items-center">
-          Copyright 2024 ROHBERN HOMES,All Rights Reserved.
+        <h1 className="bg-black text-white text-xs grid ml-auto place-items-center mt-8 bottom-1 justify-center items-center">
+          Copyright 2024,ROHBERN HOMES.
         </h1>
+        
       </div>
     </>
   );
